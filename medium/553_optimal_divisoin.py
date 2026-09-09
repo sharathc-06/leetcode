@@ -7,3 +7,4 @@ class Solution:
             return str(nums[0]) + "/" + str(nums[1])
 
         return str(nums[0]) + "/(" + "/".join(map(str, nums[1:])) + ")"
+        
