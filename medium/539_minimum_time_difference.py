@@ -13,7 +13,7 @@ class Solution:
         for i in range(1, len(times)):
             answer = min(answer, times[i] - times[i - 1])
 
-        # Difference between last time and first time across midnight
+       
         answer = min(answer, 1440 - times[-1] + times[0])
 
         return answer
