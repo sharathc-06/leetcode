@@ -21,6 +21,7 @@ class Solution:
 
             i = j + 1
 
+            
             j = i
 
             while j < len(expression) and expression[j].isdigit():
