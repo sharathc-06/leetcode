@@ -4,7 +4,6 @@ class Solution:
 
         i = len(digits) - 2
 
-        # Find first decreasing digit
         while i >= 0 and digits[i] >= digits[i + 1]:
             i -= 1
 
