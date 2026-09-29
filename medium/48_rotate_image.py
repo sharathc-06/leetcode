@@ -10,3 +10,4 @@ class Solution:
         # Reverse each row
         for row in matrix:
             row.reverse()
+            
